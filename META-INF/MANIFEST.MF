@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: custom.jar jdom.jar jel.jar LTL2Buchi.jar scenebeans.jar xml.jar
+Main-Class: ic.doc.ltsa.HPWindow

@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+  <title>Options Menu</title>
+</head>
+
+<body TEXT="#000000" BACKGROUND="Image16.jpg">
+
+  <DIV ALIGN=right><A HREF="optionsmenu.html"><IMG SRC="p2hprev.gif" BORDER=0 HEIGHT=35 WIDTH=35></A><A HREF="User-manual.html"><IMG SRC="p2hup.gif" BORDER=0 HEIGHT=35 WIDTH=35></A><A HREF="MSC_tutorial.html"><IMG SRC="p2hnext.gif" BORDER=0 HEIGHT=35 WIDTH=35></A></DIV>
+
+  <h2>
+    <font face="Arial,Helvetica">Compile-time directives</font>
+  </h2>
+
+  <hr>
+  <P>
+    <font face="Arial, Helvetica, sans-serif">The following directives may be used
+      in FSP to direct compilation. These directives are keywords in the FSP implementation
+      for LTSA 3.0 and thus may not be used as identifers</font>
+  </p>
+  <P>
+    <font face="Arial, Helvetica, sans-serif"><B>minimal</B><BR>
+      Forces minimisation during compilation. Can be used to prefic either a process
+      or a composition.</font>
+  </p>
+  <P>
+    <font face="Arial, Helvetica, sans-serif"><B>deterministic</B><BR>
+      Makes the prefixed process or composition deterministic during compilation.</font>
+  </p>
+  <P>
+    <font face="Arial, Helvetica, sans-serif"><B>property</B><BR>
+      Makes the prefixed process or composition a safety property.</font>
+  </p>
+  <P>
+    <font face="Arial, Helvetica, sans-serif"><B>import</B><BR>
+      Import a process that has been saved in Aldebarfan(.aut) format.</font>
+  </p>
+  <P>
+    <font face="Courier New, Courier, mono">import P = &quot;fileP.aut&quot;</font>
+  </p>
+  <P>
+    <font face="Arial, Helvetica, sans-serif"><B>constraint</B><BR>
+      When used instead of cosntraint for an LTL property, of the property is a safety
+      property, then the compiler generates a process which is equivalent to the safety
+      property with the transitions to error state removed. The process may be referenced
+      in a composition.</font>
+  </p>
+  <P>
+    <font face="Arial, Helvetica, sans-serif"><B>animation, target, actions, controls</B><BR>
+      Used to declare the mappingto a graphic animation.</font>
+  </p>
+</body>
+
+</html>
